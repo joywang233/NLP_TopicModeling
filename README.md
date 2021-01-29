@@ -28,6 +28,8 @@ from wordcloud import WordCloud
 To achieve our goal, firstly, a tf/tfidf model will be built based on tri-gram phrases with python scikit-learn library, then a topic modelling technique will be applied. Topic modelling can be described as a method for finding a group of words (i.e topic) from a collection of documents that best represents the information in the collection. In this project, the LDA (Latent Dirichlet allocation ) will be chosen as the techniques for our topic. The evaluation and visualization will be also given.
 
 ### FInding and graphs
+After applying LDA (Latent Dirichlet allocation) algorithm  to our dataset, 11 topics were extracted, the top weighed terms are also presented in the following graphs for each topic. We also visualized the distribution of the 11 topics among the decade newstitles in order to obtain a more clear overview regading the top news event of the past 10 years. 
+
 ![topic1](/lda_graphs/topic1.png)
 ![topic2](/lda_graphs/topic2.png)
 ![topic3](/lda_graphs/topic3.png)
@@ -40,6 +42,7 @@ To achieve our goal, firstly, a tf/tfidf model will be built based on tri-gram p
 ![topic10](/lda_graphs/topic10.png)
 ![topic11](/lda_graphs/topic11.png)
 
+Topic distribution among our dataset
 ![topic_distribution](/lda_graphs/11topics.png)
 
 
